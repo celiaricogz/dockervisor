@@ -1,11 +1,11 @@
-# 🚀 Dockervisor – Instant Observability Stack (Grafana + Prometheus + Loki)
+# Dockervisor – Instant Observability Stack (Grafana + Prometheus + Loki)
 
 **Dockervisor** is a ready-to-use observability stack powered by **Grafana, Prometheus, and Loki**, running entirely in Docker.  
 With a single command, you can launch dashboards, metrics, and logs collection for any service — no Kubernetes required.
 
 ---
 
-## ✨ Features
+## Features
 
 - **One-command setup** with `docker-compose up -d`.
 - **Full observability stack**: Grafana (dashboards), Prometheus (metrics), Loki (logs).
@@ -15,7 +15,7 @@ With a single command, you can launch dashboards, metrics, and logs collection f
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Dockervisor/
@@ -43,13 +43,13 @@ Dockervisor/
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ![Dockervisor Architecture](docs/architecture.png)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone the repository:
 
@@ -73,7 +73,7 @@ docker-compose up -d
 
 ---
 
-## 🛠 Demo Service
+## Demo Service
 
 The stack includes a lightweight demo service (`examples/demo-service`) that generates:
 - Random **Prometheus metrics** (counter `demo_requests_total`).
@@ -83,7 +83,7 @@ This ensures you can see data flowing immediately without setting up your own ap
 
 ---
 
-## 📈 Extending Dockervisor
+## Extending Dockervisor
 
 - **Add more services**: Just define them in `docker-compose.yml` and add scrape configs to `prometheus/prometheus.yml`.
 - **Add dashboards**: Place `.json` files in `grafana/dashboards/` — they will auto-load.
@@ -91,21 +91,21 @@ This ensures you can see data flowing immediately without setting up your own ap
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the **MIT License**.  
 See [LICENSE](LICENSE) for details.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Celia Rico Gutiérrez**  
 DevOps Engineer — CI/CD automation, modularization, reproducible packaging  
-🔗 [LinkedIn](https://www.linkedin.com/in/celiaricogutierrez)  
-🔗 [Malt](https://www.malt.es/profile/celiaricogutierrez)
-🔗 [UpWork](https://www.upwork.com/freelancers/~01898dfb872ff48b7a?mp_source=share)
+[LinkedIn](https://www.linkedin.com/in/celiaricogutierrez)  
+[Malt](https://www.malt.es/profile/celiaricogutierrez)
+[UpWork](https://www.upwork.com/freelancers/~01898dfb872ff48b7a?mp_source=share)
 
 ---
 
-📅 _Last updated: July 2025_
+_Last updated: July 2025_
