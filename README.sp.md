@@ -1,11 +1,11 @@
-# 🚀 Dockervisor – Stack de Observabilidad Instantánea (Grafana + Prometheus + Loki)
+# Dockervisor – Stack de Observabilidad Instantánea (Grafana + Prometheus + Loki)
 
 **Dockervisor** es un stack de observabilidad listo para usar, impulsado por **Grafana, Prometheus y Loki**, ejecutándose completamente en Docker.  
 Con un solo comando, puedes lanzar paneles, métricas y recopilación de logs para cualquier servicio — sin necesidad de Kubernetes.
 
 ---
 
-## ✨ Características
+## Características
 
 - **Configuración con un solo comando** usando `docker-compose up -d`.
 - **Stack de observabilidad completo**: Grafana (paneles), Prometheus (métricas), Loki (logs).
@@ -15,7 +15,7 @@ Con un solo comando, puedes lanzar paneles, métricas y recopilación de logs pa
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Dockervisor/
@@ -43,13 +43,13 @@ Dockervisor/
 
 ---
 
-## 🏗 Architectura
+## Architectura
 
 ![Arquitectura de Dockervisor](docs/architecture.png)
 
 ---
 
-## 🚀 Inicio Rápido
+## Inicio Rápido
 
 1. Clona el repositorio:
 
@@ -73,7 +73,7 @@ docker-compose up -d
 
 ---
 
-## 🛠 Servicio de Demostración
+## Servicio de Demostración
 
 El stack incluye un servicio de demostración ligero (`examples/demo-service`) que genera:
 - Métricas **Prometheus** aleatorias (contador `demo_requests_total`).
@@ -83,7 +83,7 @@ Esto asegura que puedas ver datos fluyendo inmediatamente sin configurar tus pro
 
 ---
 
-## 📈 Extender Dockervisor
+## Extender Dockervisor
 
 - **Añade más servicios**: Solo defínelos en `docker-compose.yml` y agrega configuraciones de scrape en `prometheus/prometheus.yml`.
 - **Añade paneles**: Coloca archivos `.json` en `grafana/dashboards/` — se cargarán automáticamente.
@@ -91,21 +91,21 @@ Esto asegura que puedas ver datos fluyendo inmediatamente sin configurar tus pro
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Licenciado bajo la **Licencia MIT**.  
 Consulta [LICENSE](LICENSE) para más detalles.
 
 ---
 
-## 👩‍💻 Autora
+## Autora
 
 **Celia Rico Gutiérrez**  
 Ingeniera DevOps — Automatización CI/CD, modularización, empaquetado reproducible  
-🔗 [LinkedIn](https://www.linkedin.com/in/celiaricogutierrez)  
-🔗 [Malt](https://www.malt.es/profile/celiaricogutierrez)
-🔗 [UpWork](https://www.upwork.com/freelancers/~01898dfb872ff48b7a?mp_source=share)
+[LinkedIn](https://www.linkedin.com/in/celiaricogutierrez)  
+[Malt](https://www.malt.es/profile/celiaricogutierrez)
+[UpWork](https://www.upwork.com/freelancers/~01898dfb872ff48b7a?mp_source=share)
 
 ---
 
-📅 _Última actualización: julio de 2025_
+_Última actualización: julio de 2025_
